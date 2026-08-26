@@ -1,33 +1,33 @@
-# 📝 BlogForge – Full Stack Blogging Platform
+# BlogForge – Full Stack Blogging Platform
 
 MegaBlog is a modern **full-stack blogging application** built with **React**, **Redux**, **Appwrite**, and **Tailwind CSS**.  
 It allows users to create, edit, and manage blog posts with authentication, image uploads, rich text editing, and responsive UI.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 **User Authentication**
+- **User Authentication**
   - Sign up, login, and logout using Appwrite Authentication
-- ✍️ **Create & Edit Posts**
+- **Create & Edit Posts**
   - Rich Text Editor for writing content
   - Auto-generated SEO-friendly slugs
-- 🖼️ **Image Uploads**
+- **Image Uploads**
   - Featured image upload & replacement using Appwrite Storage
-- 🧑‍💻 **Author Information**
+- **Author Information**
   - Displays post author name & email
-- 📱 **Fully Responsive UI**
+- **Fully Responsive UI**
   - Optimized for mobile, tablet, and desktop
-- 🧠 **State Management**
+- **State Management**
   - Redux Toolkit for authentication state
-- 🗑️ **Post Management**
+- **Post Management**
   - Edit & delete posts (author-only access)
-- ⚡ **Fast & Modern UI**
+- **Fast & Modern UI**
   - Tailwind CSS for styling
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React**
@@ -46,7 +46,7 @@ It allows users to create, edit, and manage blog posts with authentication, imag
 
 ---
 
-## 🔑 Authentication Flow
+## Authentication Flow
 
 1. User logs in / signs up via Appwrite
 2. User data is fetched using `account.get()`
@@ -55,7 +55,7 @@ It allows users to create, edit, and manage blog posts with authentication, imag
 
 ---
 
-## 🧾 Post Data Includes
+## Post Data Includes
 
 - Title
 - Slug
